@@ -1,4 +1,4 @@
-import ContactList from "./contactList";
+import 'react';
 
   export default function ContactRow({ setSelectedContactId, contact }) {
     return (
