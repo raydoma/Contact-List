@@ -1,6 +1,6 @@
-import 'react';
+import React from "react";
 
-  export default function ContactRow({ setSelectedContactId, contact }) {
+    const ContactRow = ({contact , setSelectedContactId}) => {
     return (
       <tr
         onClick={() => {
@@ -12,4 +12,6 @@ import 'react';
         <td>{contact.phone}</td>
       </tr>
     );
-  }
+  };
+
+  export default ContactRow;
